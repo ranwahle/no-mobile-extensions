@@ -1,13 +1,16 @@
 {
-  "name": "No Mobile links on desktop",
-  "description": "Convert mobile links to desktop ones",
-  "version": "0.0.1",
-  "manifest_version": 3,
-  "permissions": ["scripting"],
+
+  "manifest_version": 2,
+  "name": "No-mobile-links-on-whatsapp",
+  "version": "0.0",
+
+  "description": "Rewrite //m.* links on web.whatsapp.com",
+
   "content_scripts": [
     {
-      "matches": ["https://*.whatsapp.com/*"],
-        "js": ["rewrite-links.js"]
+      "matches": ["*://web.whatsapp.com/*"],
+      "js": ["rewrite-links.js"]
     }
   ]
+
 }
