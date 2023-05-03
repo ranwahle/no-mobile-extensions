@@ -1,9 +1,9 @@
 {
   "name": "No Mobile links on desktop",
   "description": "Convert mobile links to desktop ones",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "manifest_version": 3,
-  "permissions": ["scripting"],
+  "permissions": [],
   "content_scripts": [
     {
       "matches": ["https://*.whatsapp.com/*"],
