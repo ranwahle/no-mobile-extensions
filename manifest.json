@@ -1,7 +1,7 @@
 {
   "name": "No Mobile links on desktop",
   "description": "Convert mobile links to desktop ones",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "manifest_version": 3,
   "permissions": [],
   "content_scripts": [
